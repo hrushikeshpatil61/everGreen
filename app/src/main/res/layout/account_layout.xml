@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/backicon"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Account"
+            android:layout_marginLeft="30dp"
+            android:padding="5dp"
+            android:textSize="28sp"
+            android:textColor="#162307"
+            android:fontFamily="@font/montserratmedium"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:src="@drawable/img4"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maria Cooper"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abc123@gmail.com"
+            android:textSize="20sp"
+            android:textColor="#4C4545"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserratmedium"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joined Just Now"
+                android:textSize="20sp"
+                android:textColor="#4C4545"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserratmedium"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/transactionicon"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="My Transactions"
+                android:layout_marginLeft="30dp"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:textColor="#676262"
+                android:fontFamily="@font/montserratmedium"
+                android:textStyle="normal"
+                android:lineSpacingExtra="3.2sp"
+                />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/greaterthanicon"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="6dp"
+                android:src="@drawable/aboutusicon"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="About Us"
+                android:layout_marginLeft="30dp"
+                android:padding="5dp"
+
+                android:textSize="20sp"
+                android:textColor="#676262"
+                android:fontFamily="@font/montserratmedium"
+                android:textStyle="normal"
+                android:lineSpacingExtra="3.2sp"
+                />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/greaterthanicon"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="6dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/settingsicon"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Settings"
+                android:layout_marginLeft="30dp"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:textColor="#676262"
+                android:fontFamily="@font/montserratmedium"
+                android:textStyle="normal"
+                android:lineSpacingExtra="3.2sp"
+                />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/greaterthanicon"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

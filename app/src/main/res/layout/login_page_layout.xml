@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loginbackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signin"
+        android:text="Sign In"
+        android:textColor="#0FDC17"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_margin="25dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        android:hint="Username"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#30ffffff"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Sign In"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/teal_200"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratmedium"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:text="Don't have an account? Sign Up"
+        />
+
+</LinearLayout>
